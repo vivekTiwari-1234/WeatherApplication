@@ -4,6 +4,8 @@ This web application is developed using Java technology and is specifically desi
 Technologies used : Java, JSP, Servelts, HTML, CSS, OpenWeather API, and JavaScript.
 
 OpenWeather API Link : https://openweathermap.org/api
-My Linked Profile : linkedin.com/in/vivek-krishna-tiwari-a53522226
+
+Linkedin Profile : https://www.linkedin.com/in/vivek-krishna-tiwari-a53522226/
+
 
 Thanks!!! :)
