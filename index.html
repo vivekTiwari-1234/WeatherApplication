@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application - Vivek Tiwari</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+    <style>
+        body {
+            font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #2b5876, #4e4376); /* Professional gradient */
+            color: #ffffff;
+            height: 100vh; /* Full page height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Ensure content fills available space */
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+            flex-grow: 1; /* Allow this section to grow to fill available space */
+        }
+
+        .weather-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #f9f9f9;
+            font-size: 36px;
+            font-weight: 650;
+        }
+
+        .intro {
+            margin: 20px 0;
+            font-size: 18px;
+            color: #e0e0e0;
+        }
+
+        .technologies {
+            margin: 20px 0;
+            font-size: 16px;
+            color: #cfcfcf;
+        }
+
+        .form-container {
+            margin-top: 30px;
+        }
+
+        input {
+            padding: 12px;
+            width: 250px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            font-size: 16px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        input::placeholder {
+            color: #888;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            font-size: 14px;
+            color: #bdbdbd;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Weather Icon -->
+        <div class="weather-icon">
+            <i class="fas fa-cloud-sun"></i> <!-- Replace with the relevant weather icon based on the condition -->
+        </div>
+        
+        <h1>Welcome to Weather Application</h1>
+        <p class="intro">
+            This application, developed by Vivek Krishna Tiwari, delivers real-time weather updates with a seamless user experience.
+        </p>
+        <p class="technologies">
+            <strong>Technologies Used:</strong> JSP, HTML, CSS, Java, OpenWeather API, and JavaScript.
+        </p>
+        
+        <div class="form-container">
+            <form action="MyServlet" method="post">
+                <label for="city">Search for city</label> <br>
+                <br>
+                <input type="text" name="city" id="city" placeholder="Enter city name">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        © 2024, Weather Application by Vivek Krishna Tiwari. All rights reserved.
+    </footer>
+</body>
+</html>
