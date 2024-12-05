@@ -5,6 +5,8 @@ Technologies used : Java, JSP, Servelts, HTML, CSS, OpenWeather API, and JavaScr
 
 OpenWeather API Link : https://openweathermap.org/api
 
+Apache Tomcat(Version :10.1.8) : https://tomcat.apache.org/download-10.cgi
+
 Linkedin Profile : https://www.linkedin.com/in/vivek-krishna-tiwari-a53522226/
 
 
